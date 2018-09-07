@@ -1,0 +1,2 @@
+[0613/103916.882:FATAL:libcef_dll_wrapper.cc(246)] Check failed: base::AtomicRefCountIsZero(&CefBrowserCToCpp::DebugObjCt). 
+
