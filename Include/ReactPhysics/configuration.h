@@ -35,6 +35,14 @@
 #include "decimal.h"
 #include "containers/Pair.h"
 
+#if defined(max)
+#undef max
+#endif // defined(max)
+
+#if defined(min)
+#undef min
+#endif 
+
 // Windows platform
 #if defined(WIN32) ||defined(_WIN32) || defined(_WIN64) ||defined(__WIN32__) || defined(__WINDOWS__)
     #define WINDOWS_OS
